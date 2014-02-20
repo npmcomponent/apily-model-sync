@@ -1,26 +1,16 @@
-{  
-  "name": "model-sync",
-  "description": "client-side MVC Model sync component",
+{
+  "name": "apily-model-sync",
+  "description": "Model sync component",
   "version": "0.0.1",
-  "maintainers": [
-    {
-      "name": "Enrico Marino",
-      "url": "onirame.com"
-    },
-    {
-      "name": "Federico Spini",
-      "url": "federicospini.com"
-    }
+  "keywords": [
+    "client-side",
+    "MVC",
+    "model",
+    "sync"
   ],
-  "homepage": "https://github.com/apily/model-sync",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/apily/model-sync.git"
+  "dependencies": {
+    "apily-model": "git://github.com/npmcomponent/apily-model.git",
+    "apily-request": "git://github.com/npmcomponent/apily-request.git"
   },
-  "main": "index.js",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "MIT"
 }

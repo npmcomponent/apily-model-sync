@@ -16,7 +16,7 @@ module.exports = function (model) {
    * Component dependencies.
    */
   
-  model.request = require('request');
+  model.request = require('apily-request');
 
   /**
    * root
